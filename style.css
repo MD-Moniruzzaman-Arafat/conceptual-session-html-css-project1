@@ -59,3 +59,39 @@
 .banner-img img {
     width: 400px;
 }
+
+/* about section */
+.about-title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.about-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+.about-content button {
+    background-color: orangered;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.about-img img {
+    width: 400px;
+}
