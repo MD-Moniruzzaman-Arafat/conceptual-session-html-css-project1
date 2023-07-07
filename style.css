@@ -25,3 +25,37 @@
     color: white;
     margin-right: 15px;
 }
+
+/* banner section */
+.banner-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./images/background.png"), linear-gradient(45deg, #272727, #272727);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    margin-bottom: 15px;
+}
+
+.banner-content button {
+    background-color: orangered;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner-img img {
+    width: 400px;
+}
